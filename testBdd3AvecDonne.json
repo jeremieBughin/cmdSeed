@@ -1,0 +1,256 @@
+[
+    {
+        "id": 1,
+        "services": "a",
+        "username": "a",
+        "password": "a",
+        "email": "a",
+        "firstname": "a",
+        "lastname": "a",
+        "role": "admin",
+        "createdAt": "26/13/28",
+        "updatedAt": "26/13/28",
+        "deletedAt": "26/13/28",
+        "avatarId": 1
+    },
+    {
+        "id": 2,
+        "services": "b",
+        "username": "b",
+        "password": "b",
+        "email": "b",
+        "firstname": "b",
+        "lastname": "b",
+        "role": "admin",
+        "createdAt": "26/13/29",
+        "updatedAt": "26/13/29",
+        "deletedAt": "26/13/29",
+        "avatarId": 2
+    },
+    {
+        "id": 3,
+        "services": "c",
+        "username": "c",
+        "password": "c",
+        "email": "c",
+        "firstname": "c",
+        "lastname": "c",
+        "role": "admin",
+        "createdAt": "26/13/30",
+        "updatedAt": "26/13/30",
+        "deletedAt": "26/13/30",
+        "avatarId": 3
+    },
+    {
+        "id": 4,
+        "services": "d",
+        "username": "d",
+        "password": "d",
+        "email": "d",
+        "firstname": "d",
+        "lastname": "d",
+        "role": "admin",
+        "createdAt": "26/13/31",
+        "updatedAt": "26/13/31",
+        "deletedAt": "26/13/31",
+        "avatarId": 4
+    },
+    {
+        "services": "e",
+        "username": "e",
+        "password": "e",
+        "email": "e",
+        "firstname": "e",
+        "lastname": "e",
+        "role": "user"
+    },
+    {
+        "services": "f",
+        "username": "f",
+        "password": "f",
+        "email": "f",
+        "firstname": "f",
+        "lastname": "f",
+        "role": "user"
+    },
+    {
+        "services": "g",
+        "username": "g",
+        "password": "g",
+        "email": "g",
+        "firstname": "g",
+        "lastname": "g",
+        "role": "user"
+    },
+    {
+        "services": "h",
+        "username": "h",
+        "password": "h",
+        "email": "h",
+        "firstname": "h",
+        "lastname": "h",
+        "role": "user"
+    },
+    {
+        "services": "i",
+        "username": "i",
+        "password": "i",
+        "email": "i",
+        "firstname": "i",
+        "lastname": "i",
+        "role": "user"
+    },
+    {
+        "services": "j",
+        "username": "j",
+        "password": "j",
+        "email": "j",
+        "firstname": "j",
+        "lastname": "j",
+        "role": "user"
+    },
+    {
+        "services": "k",
+        "username": "k",
+        "password": "k",
+        "email": "k",
+        "firstname": "k",
+        "lastname": "k",
+        "role": "user"
+    },
+    {
+        "services": "l",
+        "username": "l",
+        "password": "l",
+        "email": "l",
+        "firstname": "l",
+        "lastname": "l",
+        "role": "user"
+    },
+    {
+        "services": "m",
+        "username": "m",
+        "password": "m",
+        "email": "m",
+        "firstname": "m",
+        "lastname": "m",
+        "role": "user"
+    },
+    {
+        "services": "n",
+        "username": "n",
+        "password": "n",
+        "email": "n",
+        "firstname": "n",
+        "lastname": "n",
+        "role": "user"
+    },
+    {
+        "services": "o",
+        "username": "o",
+        "password": "o",
+        "email": "o",
+        "firstname": "o",
+        "lastname": "o",
+        "role": "user"
+    },
+    {
+        "services": "p",
+        "username": "p",
+        "password": "p",
+        "email": "p",
+        "firstname": "p",
+        "lastname": "p",
+        "role": "user"
+    },
+    {
+        "services": "q",
+        "username": "q",
+        "password": "q",
+        "email": "q",
+        "firstname": "q",
+        "lastname": "q",
+        "role": "user"
+    },
+    {
+        "services": "r",
+        "username": "r",
+        "password": "r",
+        "email": "r",
+        "firstname": "r",
+        "lastname": "r",
+        "role": "user"
+    },
+    {
+        "services": "s",
+        "username": "s",
+        "password": "s",
+        "email": "s",
+        "firstname": "s",
+        "lastname": "s",
+        "role": "user"
+    },
+    {
+        "services": "t",
+        "username": "t",
+        "password": "t",
+        "email": "t",
+        "firstname": "t",
+        "lastname": "t",
+        "role": "user"
+    },
+    {
+        "services": "u",
+        "username": "u",
+        "password": "u",
+        "email": "u",
+        "firstname": "u",
+        "lastname": "u",
+        "role": "user"
+    },
+    {
+        "services": "v",
+        "username": "v",
+        "password": "v",
+        "email": "v",
+        "firstname": "v",
+        "lastname": "v",
+        "role": "user"
+    },
+    {
+        "services": "w",
+        "username": "w",
+        "password": "w",
+        "email": "w",
+        "firstname": "w",
+        "lastname": "w",
+        "role": "user"
+    },
+    {
+        "services": "x",
+        "username": "x",
+        "password": "x",
+        "email": "x",
+        "firstname": "x",
+        "lastname": "x",
+        "role": "user"
+    },
+    {
+        "services": "y",
+        "username": "y",
+        "password": "y",
+        "email": "y",
+        "firstname": "y",
+        "lastname": "y",
+        "role": "user"
+    },
+    {
+        "services": "z",
+        "username": "z",
+        "password": "z",
+        "email": "z",
+        "firstname": "z",
+        "lastname": "z",
+        "role": "user"
+    }
+]
