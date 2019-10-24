@@ -94,8 +94,11 @@ function readbdd(database, seedExtension, pathSeedRead) {
                         break;
                 }
             });
+            conn.end();
         }
+
     });
+
 }
 
 /*
@@ -133,6 +136,7 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
                                     throw err;
                                 }
                             })
+
                         }
                         for (let j = 0; j < tableData.length; j++) {
                             let tabProp = Object.keys(tableData[j]);
@@ -147,10 +151,13 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
                             conn.query(myQuery, function (err, result) {
                                 if (err) throw err;
                             });
-                        }
-                    }
 
+                        }
+
+                    }
+                    conn.end();
                 });
+
                 break;
             case 'xlsx':
                 let wb = xlsx.readFile('../seed/' + pathSeedWrite + '.xlsx', {
@@ -166,7 +173,7 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
                 fs.writeFile('../seed/' + pathSeedWrite + '.json', (JSON.stringify(result, null, 4)), function (err) {
                     if (err) throw err;
                 });
-                console.log(result);
+
                 fs.readFile('../seed/' + pathSeedWrite + '.json', (err, data) => {
                     // on lit le fichier, on parse tout dans un objet, on récupère ses keys dans un tableau
 
@@ -174,6 +181,7 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
                     let keyObject = Object.keys(obj);
 
                     let tableData;
+
                     for (i = 0; i < keyObject.length; i++) {
                         tableData = obj[keyObject[i]];
                         let table = keyObject[i];
@@ -183,7 +191,7 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
                                 if (err) {
                                     throw err;
                                 }
-                                console.log(results);
+
                             })
                         }
                         for (let j = 0; j < tableData.length; j++) {
@@ -198,10 +206,12 @@ function writeDb(database, pathSeedWrite, seedExtension, dropData) {
 
                             conn.query(myQuery, function (err, result) {
                                 if (err) throw err;
+
+
                             });
                         }
                     }
-
+                    conn.end();
                 });
                 break;
         }
@@ -220,7 +230,6 @@ async function databaseConnectionInquire() {
         .then(answers => {
             database = answers.database;
         });
-
 }
 
 async function howMuchTable() {
@@ -249,10 +258,8 @@ async function howMuchTable() {
             }])
             .then(answers => {
                 tableArray[i] = answers.tableName;
-
             });
     }
-
 }
 
 async function readInquire() {
@@ -337,7 +344,6 @@ async function main() {
             await console.log("remplissez vos fichier json / excel");
             await writeInquire();
             await writeDb(database, pathSeedWrite, seedExtension, dropData);
-
             break;
     }
 }
