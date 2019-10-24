@@ -1,0 +1,23 @@
+{
+    "user": [
+        {
+            "services": "",
+            "username": "",
+            "password": "",
+            "email": "",
+            "firstname": "",
+            "lastname": "",
+            "role": ""
+        }
+    ],
+    "document": [
+        {
+            "fieldname": "",
+            "filename": "",
+            "path": "",
+            "mimetype": "",
+            "size": "",
+            "userId": ""
+        }
+    ]
+}
